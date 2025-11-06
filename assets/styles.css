@@ -1,0 +1,14 @@
+:root{
+  --brand-green:#228B22;
+  --accent:#FFD700;
+  --bg:#f9f9f9;
+  --text:#222;
+  --card-bg:#fff;
+  --radius:8px;
+}
+body{font-family:Arial,Helvetica,sans-serif;margin:0;background:var(--bg);color:var(--text)}
+.container{max-width:1000px;margin:0 auto;padding:20px}
+.hero{background:linear-gradient(rgba(0,0,0,.25),rgba(0,0,0,.25)), url('https://via.placeholder.com/1200x380?text=Fresh+Chapatis') center/cover no-repeat;color:#fff;padding:60px 20px;text-align:center}
+.products{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;margin-top:16px}
+.product-card{background:var(--card-bg);padding:12px;border-radius:var(--radius);box-shadow:0 1px 3px rgba(0,0,0,.06)}
+.site-footer{background:var(--brand-green);color:#fff;padding:16px;text-align:center;margin-top:30px}
